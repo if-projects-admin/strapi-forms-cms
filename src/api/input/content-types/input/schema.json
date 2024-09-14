@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inputs",
+  "info": {
+    "singularName": "input",
+    "pluralName": "inputs",
+    "displayName": "input"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "label"
+    }
+  }
+}

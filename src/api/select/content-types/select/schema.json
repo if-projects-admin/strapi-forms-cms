@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "selects",
+  "info": {
+    "singularName": "select",
+    "pluralName": "selects",
+    "displayName": "Select"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Titulo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Senioridade": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "junior",
+        "pleno",
+        "senior"
+      ],
+      "required": true
+    }
+  }
+}
